@@ -9,68 +9,152 @@
     <link rel="icon" href="/assets/icons.ico">
 </head>
 <body>
-    <header class = "header">
+    <header class = "container header">
         <div class = "container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#technical-skills" class="nav-link">technical skills</a></li>
-                    <li class="nav-item"><a href="#soft-skills" class="nav-link">soft skills</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                    <!-- <li class="nav-item"><a href="#soft-skills" class="nav-link">soft skills</a></li> -->
                     <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
-                    <li class="nav-item"><a href="#language-skills" class="nav-link">language skills</a></li>
+                    <li class="nav-item"><a href="#language-skills" class="nav-link">language</a></li>
                     
                 </ul>
             </nav>
 
         </div>
     </header>
-    <main class = "main">
-        
-        <div class="container">
-        <section class="section" id="profile">
-            <h2 class=".section-title">Ilieva Elena</h2>
-            <img src="/assets/foto.jpg" alt="my photo">
-            <p>Hello</p>
-        </section>
-        <section class="section" id="contacts">
-            <h2 class=".section-title">contacts</h2>
-        </section>
+    <main class = "main">        
+        <div class="container main-container">
+            <div class="aa">
+             <section class="section" id="profile">            
+               <img src="/assets/foto.jpg" alt="my photo">            
+             </section>
+             <section class="section" id="summary">
+                 <h1 class=".section-title">Ilieva Elena</h1>
+                 <p>Junior Full Stack Developer</p>
+                 <h3 class=".section-title">About Me</h3>
+                  <p>I am a full stack developer and open to work. I'm a fast
+                     learner, responsible, ready for tasks. I am interested in
+                     programming, so for me studying is an essential part of
+                     self-development.
+                     I want to improve my skills and use them for interesting
+                     tasks. I want to be useful in the implementation of your
+                     projects.
+                  </p>
+             </section>
+           </div>
+           <section class="section" id="contacts">
+               <h2 class=".section-title">contacts</h2>
 
-        <section class="section" id="summary">
-            <h2 class=".section-title">summary</h2>
-        </section>
-        <section class="section" id="technical-skills ">
-            <h2 class=".section-title">technical skills</h2>
-        </section>
-        <section class="section" id="soft-skills">
-            <h2 class=".section-title">soft skills</h2>
-        </section>
-        <section class="section" id="projects">
-            <h2 class=".section-title">projects examples</h2>
-        </section>
-        <section class="section" id="code">
-            <h2 class=".section-title">code examples</h2>
-        </section>
-        <section class="section" id="education ">
-            <h2 class=".section-title">education</h2>
-        </section>
-        <section class="section" id="language-skills">
-            <h2 class=".section-title">language skills</h2>
-        </section>        
-        </div>
+               <ul class=".contact-list">
+                   <li class=".contact-item">Phone<a href="tel:+380682642482">+38-068-264-24-82</a></li>
+                   <li class=".contact-item">E-mail<a href="mailto:vipa4ka@gmail.com">vipa4ka@gmail.com</a></li>
+                   <li class=".contact-item">Telegram<a href="https://tlgg.ru/vipa4ka">@vipa4ka</a></li>
+                   <!-- <li class=".contact-item">GitHub<a href="https://github.com/Vipa4ka">GitHub</a></li> -->
+                   <li class=".contact-item">LinkedIn<a href="https://www.linkedin.com/in/elena-ilieva/">LinkedIn</a></li>
+                   <li class=".contact-item">Location<span>Odessa, Ukraine</span></li>
+               </ul>
+           </section>
+       
+            <section class="section" id="skills ">
+                <h2 class=".section-title">technical skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>REACT</li>
+                    <li>REDUX</li>
+                    <li>SASS</li>
+                    <li>NODE</li>
+                    <li>GIT</li>
+                </ul>                
+                <h2 class=".section-title">soft skills</h2>
+                <ul>
+                    <li>Responsible and organized</li>
+                    <li>Attentive to details</li>
+                    <li>Good communicator</li>
+                    <li>Team player</li>
+                    <li>Stress-tolerant</li>
+                    <li>Open to new knowledge</li>
+                </ul>                
+            </section>
+        
+            <section class="section" id="projects">
+                <h2 class=".section-title">projects examples</h2>
+                <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img src="" alt="WEB STUDIO"></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+            </section>
+            <section class="section" id="code">
+                <h2 class=".section-title">code examples</h2>
+                <pre>
+                    <code>
+                        function solution(str, ending) {
+                          const result1 = str.split('').reverse().join('');
+                          const result2 = ending.split('').reverse().join('');
+                          let i = 0
+                          if (result2.length === 0 || result1.length === 0) {
+                              return true
+                            } else {
+                                   while (i < ending.length - 1) { const o=(result2[i]===result1[i]) ? true : false; 
+                                    if (o===false) { break; } i +=1; };
+                                    return (result2[i]===result1[i]) ? true : false; 
+                             };};
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class=".section-title">education</h2>
+                <div>
+                    <p>IT SCHOOL GoIt</p>
+                    <span>Full Stack Developer (October 2020 - November 2021)</span>
+                    <ul>                
+                       <li>Teamwork experience.</li>
+                       <li>Experience with code versioning tools (such as Git).</li>
+                       <li>The layout of the web pages with clean cross-browser valid code using Figma.</li>
+                       <li>Experience in web application development using JavaScript.</li>
+                       <li>Developing new user-facing features using React.js.</li>
+                       <li>Experience in creating a REST API for working with a collection.</li>
+                       <li>Experience in back-end development using Node.js</li>                
+                   </ul>
+                    <p>ODESSA STATE ACADEMY OF COLD</p>
+                    <span>Environmental Engineer (2001 - 2006)</span>
+                </div>                
+            </section>
+            <section class="section" id="language-skills">
+                <h2 class=".section-title">languages</h2>
+                <ul class="section-language">
+                    <li>Ukrainian -native</li>
+                    <li>Russian - native</li>
+                    <li>English -pre-intermediate</li>
+                </ul>
+            </section>        
+     </div>
         
     </main>
-    <footer class = "footer">
-        <div class="container">
-        <div>
-            <p>jkfdj</p>
-        </div>
-        </div>
-        
-    </footer>
-    
+    <footer class = "container footer">
+        <div class="container-footer">
+          <div>            
+               <a class="rsschool" href="https://rs.school/js/" target="_blank">
+                   <img src="assets/rs_school_js.svg" width="86" height="32" alt="RS School">
+               </a>
+          </div>
+          <div>
+               <a class="github" href="https://github.com/Vipa4ka" target="_blank">
+                   <img src="/assets/github.svg" width="86" height="32" alt="github_icon">                
+               </a>
+            </div>
+            <div class="year">2022</div>        
+        </div>        
+    </footer>    
 </body>
 </html>
