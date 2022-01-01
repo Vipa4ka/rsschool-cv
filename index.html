@@ -12,11 +12,17 @@
     <header class = "container header">
         <div class = "container">
             <nav class="nav">
+                <button type="button" class="menu-button is-open" aria-controls="menu-conteiner" data-menu-button>
+                    <svg class="svg-menu" width="40" height="40" aria-label="Переключатель моб меню">
+                        <use class="icon-menu" href="./assets/burger.png "></use>
+                        <use class="icon-close" href="./assets/close.png"></use>
+                    </svg>                
+                </button>
                 <ul class="nav-list">
+                    
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
-                    <!-- <li class="nav-item"><a href="#soft-skills" class="nav-link">soft skills</a></li> -->
                     <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
@@ -29,39 +35,43 @@
     </header>
     <main class = "main">        
         <div class="container main-container">
-            <div class="aa">
+            <!-- <div class="aa"> -->
              <section class="section" id="profile">            
                <img src="./assets/foto.jpg" alt="my photo">            
              </section>
-             <section class="section" id="summary">
-                 <h1 class=".section-title">Ilieva Elena</h1>
-                 <p>Junior Full Stack Developer</p>
-                 <h3 class=".section-title">About Me</h3>
-                  <p>I am a full stack developer and open to work. I'm a fast
-                     learner, responsible, ready for tasks. I am interested in
-                     programming, so for me studying is an essential part of
-                     self-development.
-                     I want to improve my skills and use them for interesting
-                     tasks. I want to be useful in the implementation of your
-                     projects.
-                  </p>
+             <section class="section summary" id="summary">
+                 <h1 class=".section-title">ILIEVA ELENA</h1>
+                 <div class="underline line-color"></div>
+                 <p class="summary-text">JUNIOR FULL STACK DEVELOPER</p>
+                 
              </section>
-           </div>
+           <!-- </div> -->
            <section class="section" id="contacts">
-               <h2 class=".section-title">contacts</h2>
-
+               <h3 class=".section-title">CONTACTS</h3>
+            <div class="underline line-color"></div>
                <ul class=".contact-list">
                    <li class=".contact-item">Phone<a href="tel:+380682642482">+38-068-264-24-82</a></li>
                    <li class=".contact-item">E-mail<a href="mailto:vipa4ka@gmail.com">vipa4ka@gmail.com</a></li>
                    <li class=".contact-item">Telegram<a href="https://tlgg.ru/vipa4ka">@vipa4ka</a></li>
-                   <!-- <li class=".contact-item">GitHub<a href="https://github.com/Vipa4ka">GitHub</a></li> -->
+                   <li class=".contact-item">GitHub<a href="https://github.com/Vipa4ka">GitHub</a></li>
                    <li class=".contact-item">LinkedIn<a href="https://www.linkedin.com/in/elena-ilieva/">LinkedIn</a></li>
                    <li class=".contact-item">Location<span>Odessa, Ukraine</span></li>
                </ul>
+            <h3 class=".section-title">ABOUT ME</h3>
+            <div class="underline line-color"></div>
+            <p>I am a full stack developer and open to work. I'm a fast
+                learner, responsible, ready for tasks. I am interested in
+                programming, so for me studying is an essential part of
+                self-development.
+                I want to improve my skills and use them for interesting
+                tasks. I want to be useful in the implementation of your
+                projects.
+            </p>
            </section>
        
             <section class="section" id="skills ">
-                <h2 class=".section-title">technical skills</h2>
+                <h3 class=".section-title">TECHNICAL SKILLS</h3>
+                <div class="underline line-color"></div>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -72,7 +82,8 @@
                     <li>NODE</li>
                     <li>GIT</li>
                 </ul>                
-                <h2 class=".section-title">soft skills</h2>
+                <h3 class=".section-title">SOFT SKILLS</h3>
+                <div class="underline line-color"></div>
                 <ul>
                     <li>Responsible and organized</li>
                     <li>Attentive to details</li>
@@ -84,36 +95,34 @@
             </section>
         
             <section class="section" id="projects">
-                <h2 class=".section-title">projects examples</h2>
-                <!-- <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img src="" alt="WEB STUDIO"></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a> -->
+                <h3 class=".section-title">PROJECTS EXAMPLES</h3>
+                <div class="underline line-color"></div>
+                <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img src="assets/webStudi.jpg" alt="WEB STUDIO" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-js-hw-08-gallery/"><img src="assets/Gallery.jpg" alt="GALLERY" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-08-phonebook/"><img src="assets/Phonebook.jpg" alt="PHONEBOOK" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-images/"><img src="assets/ImageFinder.jpg" alt="IMAGE FINDER" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-js-hw-11-timer/"><img src="assets/TimerCountDown.jpg" alt="TIMER COUNTDOWN" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-feedback/"><img src="assets/feedback.jpg" alt="FEEDBACK" width="350px"></a>
+                <a href="https://movies5.netlify.app/"><img src="assets/SearchMovies.jpg" alt="SEARCH MOVIES" width="350px"></a>
+                <a href="https://tverdovskyialeksey.github.io/event-booster"><img src="assets/EventBooster.jpg" alt="EVENT-BOOSTER" width="350px"></a>
             </section>
-            <section class="section" id="code">
-                <h2 class=".section-title">code examples</h2>
-                <pre>
-                    <code>
-                        function solution(str, ending) {
-                          const result1 = str.split('').reverse().join('');
-                          const result2 = ending.split('').reverse().join('');
-                          let i = 0
-                          if (result2.length === 0 || result1.length === 0) {
-                              return true
-                            } else {
-                                   while (i < ending.length - 1) { const o=(result2[i]===result1[i]) ? true : false; 
-                                    if (o===false) { break; } i +=1; };
-                                    return (result2[i]===result1[i]) ? true : false; 
-                             };};
-                    </code>
-                </pre>
+            <section class="section code-example" id="code">
+                <h3 class=".section-title">CODE EXAMPLES</h3>
+                <div class="underline line-color"></div>
+                <!-- <pre> -->
+                    <div>
+<code>
+    <span>function</span> <span>countSheeps</span><span>(arrayOfSheep)</span>{
+        <span>return</span> <span>arrayOfSheep</span><span>.filter</span><span>.(e => e).length;</span>    
+    }
+
+</code>
+</div>
+                <!-- </pre> -->
             </section>
             <section class="section" id="education">
-                <h2 class=".section-title">education</h2>
+                <h3 class=".section-title">EDUCATION</h3>
+                <div class="underline line-color"></div>
                 <div>
                     <p>IT SCHOOL GoIt</p>
                     <span>Full Stack Developer (October 2020 - November 2021)</span>
@@ -131,7 +140,8 @@
                 </div>                
             </section>
             <section class="section" id="language-skills">
-                <h2 class=".section-title">languages</h2>
+                <h3 class=".section-title">LANGUAGES</h3>
+                <div class="underline line-color"></div>
                 <ul class="section-language">
                     <li>Ukrainian -native</li>
                     <li>Russian - native</li>
