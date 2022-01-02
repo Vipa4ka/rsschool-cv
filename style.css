@@ -10,6 +10,8 @@
 }
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 ul {
   padding: 0;
@@ -25,54 +27,17 @@ a {
 
 img {
   display: block;
-}
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
-img {
-  width: 260px;
   margin: 0 auto;
-}
-h1,
-h3 {
-  text-align: center;
-  margin: 15px;
-}
-.section-title {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.underline {
-  height: 3px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.line-color {
-  background-color: #0409a39c;
-}
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1200px) {
-  img {
-    width: 320px;
-  }
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  max-width: 100%;
+  overflow-x: hidden;
   min-height: 100vh;
-  /* margin: 0;
-  padding: 0; */
   font-family: "Roboto", sans-serif;
   transition: all 0.5s ease;
   font-size: 18px;
@@ -81,12 +46,33 @@ body {
   background-color: #d4dff3;
   color: #140470;
 }
-.header {
-  position: relative;
+
+h1,
+h3 {
+  text-align: center;
+  margin: 15px;
 }
 
-.main {
-  border-bottom: 1px solid #ececec;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.underline {
+  height: 3px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.line-color {
+  background-color: #0409a39c;
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+  .my-foto {
+    width: 320px;
+  }
 }
 
 pre {
@@ -94,40 +80,19 @@ pre {
   display: flex;
   align-self: center;
   width: 100%;
-  /* pre {
-  position: absolute;
-  width: 100%;
-  line-height: 22px;
-  padding: 0;
-  background-color: #c9c9f5;
 }
 
-code {
-  /* position: relative;
-  width: 100%;
-  line-height: 22px;
-  padding: 0;
-  background-color: #202026; */
+.background-code {
+  background-color: #d5d5edd1;
 }
-/* .section {
-  width: 50%;
-} */
 code {
   overflow-x: hidden;
   width: 100%;
   line-height: 22px;
   padding: 0;
-  background-color: #c1c1e6;
   font-size: 14px;
 }
-*/ .com {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* @media screen and (max-width: 1199px) {
-    min-height: 60px;
-  } */
-}
+
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -212,27 +177,12 @@ code {
     display: contents;
   }
 } */
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 20px;
-  /* padding: 40px 2rem 30px; */
-}
+
 /* -------------- header ---------------------- */
-
-/* -------------- main ------------------------ */
-
-.summary {
-  margin: 20px;
-}
-.summary-text {
-  text-align: center;
-  font-size: 20px;
-}
-/* -------------- footer ---------------------- */
-
-/* 
 .header {
+  position: relative;
+}
+/* .header {
   background-image: linear-gradient(135deg, #52c8f7 10%, #2e5aad 100%);
   box-shadow: 0px 0px 20px 4px #144d98;
 }
@@ -247,14 +197,78 @@ code {
   padding: 0 20px;
   line-height: 50px;
   transition: 0.3s;
+} */
+
+/* -------------- main ------------------------ */
+.main {
+  border-bottom: 1px solid #ececec;
 }
 .main-container {
+  margin: 10px;
   background: rgb(200, 222, 240);
   box-shadow: 0px 0px 20px 4px #144d98;
-
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
+.my-foto {
+  box-shadow: 0px 0px 20px 4px #144d98;
+  width: 260px;
+}
+/* .contact-item {
+  display: flex;
+  margin-bottom: 10px;
+} */
+.contact-svg {
+  margin: auto;
+}
+/* .contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+} */
+.contact-item {
+  margin-bottom: 10px;
+}
+.contact-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  color: #140470;
+  fill: #7d90d2;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-icon:hover {
+  fill: #140470;
+}
+
+.summary {
+  margin: 20px;
+}
+.summary-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.project-foto {
+  width: 260px;
+}
+/* -------------- footer ---------------------- */
+
+/* 
+
+
 
 
 .section-title {

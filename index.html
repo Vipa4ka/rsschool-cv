@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/icons.ico">
+    <link rel="icon" href="./assets/icons/icons.ico">
 </head>
 <body>
     <header class = "container header">
@@ -14,12 +14,11 @@
             <nav class="nav">
                 <button type="button" class="menu-button is-open" aria-controls="menu-conteiner" data-menu-button>
                     <svg class="svg-menu" width="40" height="40" aria-label="Переключатель моб меню">
-                        <use class="icon-menu" href="./assets/burger.png "></use>
-                        <use class="icon-close" href="./assets/close.png"></use>
+                        <use class="icon-menu" href="./assets/icons/burger.png "></use>
+                        <use class="icon-close" href="./assets/icons/close.png"></use>
                     </svg>                
                 </button>
-                <ul class="nav-list">
-                    
+                <ul class="nav-list">                    
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
@@ -35,29 +34,82 @@
     </header>
     <main class = "main">        
         <div class="container main-container">
-            <!-- <div class="aa"> -->
+            
              <section class="section" id="profile">            
-               <img src="./assets/foto.jpg" alt="my photo">            
+               <img class="my-foto" src="./assets/foto.jpg" alt="my photo">            
              </section>
              <section class="section summary" id="summary">
-                 <h1 class=".section-title">ILIEVA ELENA</h1>
+                 <h1 >ILIEVA ELENA</h1>
                  <div class="underline line-color"></div>
                  <p class="summary-text">JUNIOR FULL STACK DEVELOPER</p>
                  
              </section>
-           <!-- </div> -->
+           
            <section class="section" id="contacts">
-               <h3 class=".section-title">CONTACTS</h3>
+               <h3 class="section-title">CONTACTS</h3>
             <div class="underline line-color"></div>
-               <ul class=".contact-list">
-                   <li class=".contact-item">Phone<a href="tel:+380682642482">+38-068-264-24-82</a></li>
-                   <li class=".contact-item">E-mail<a href="mailto:vipa4ka@gmail.com">vipa4ka@gmail.com</a></li>
-                   <li class=".contact-item">Telegram<a href="https://tlgg.ru/vipa4ka">@vipa4ka</a></li>
-                   <li class=".contact-item">GitHub<a href="https://github.com/Vipa4ka">GitHub</a></li>
-                   <li class=".contact-item">LinkedIn<a href="https://www.linkedin.com/in/elena-ilieva/">LinkedIn</a></li>
-                   <li class=".contact-item">Location<span>Odessa, Ukraine</span></li>
+               <ul class="contact-list">
+                   <li class="contact-item">
+                    <a class="contact-icon" href="tel:+380682642482">
+                        <svg class="contact-svg" width="30" height="30">
+                            <use href="./assets/icons/symbol-defs.svg#icon-Phone2"></use>
+                        </svg>
+                        +38-068-264-24-82
+                    </a>
+                    </li>                    
+                    <li class="contact-item">
+                        <a class="contact-icon" href="mailto:iliyeva.elena@gmail.com">
+                            <svg class="contact-svg" width="30" height="30">
+                                <use href="./assets/icons/symbol-defs.svg#icon-E-mail"></use>
+                            </svg>
+                            iliyeva.elena@gmail.com
+                        </a>
+                    </li>
+                    
+                    <li class="contact-item">
+                        <a class="contact-icon" href="https://tlgg.ru/vipa4ka">
+                            <svg class="contact-svg" width="30" height="30">
+                                <use href="./assets/icons/symbol-defs.svg#icon-Telegram"></use>
+                            </svg>
+                            @vipa4ka
+                        </a>
+                    </li>
+                    
+                    <li class="contact-item">
+                        <a class="contact-icon" href="https://github.com/Vipa4ka">
+                            <svg class="contact-svg" width="30" height="30">
+                                <use href="./assets/icons/symbol-defs.svg#icon-GitHub"></use>
+                            </svg>
+                            Ilieva Elena
+                        </a>
+                    </li>
+                    <!-- <li class="contact-item"><img class="contact-svg" src="assets/icons/LinkedIn2.svg" alt="LinkedIn" width="30px"><a
+                            href="https://www.linkedin.com/in/elena-ilieva/">LinkedIn</a></li> -->
+                    <li class="contact-item">
+                        <a class="contact-icon" href="https://www.linkedin.com/in/elena-ilieva/">
+                            <svg class="contact-svg" width="30" height="30">
+                                <use href="./assets/icons/symbol-defs.svg#icon-LinkedIn"></use>
+                            </svg>
+                            Ilieva Elena
+                        </a>
+                    </li>
+                    <!-- <li class="contact-item"><img class="contact-svg" src="assets/icons/Location.svg" alt="Location" width="30px"><a href="https://goo.gl/maps/Do6kcivRaSLcLbeg6">Odessa, Ukraine</a></li> -->
+                    <li class="contact-item">
+                        <a class="contact-icon" href="https://goo.gl/maps/Do6kcivRaSLcLbeg6">
+                            <svg class="contact-svg" width="30" height="30">
+                                <use href="./assets/icons/symbol-defs.svg#icon-Location2"></use>
+                            </svg>
+                            Odessa, Ukraine
+                        </a>
+                    </li>
+
+                      
+                   
+                   
+                   
+                   
                </ul>
-            <h3 class=".section-title">ABOUT ME</h3>
+            <h3 class="section-title">ABOUT ME</h3>
             <div class="underline line-color"></div>
             <p>I am a full stack developer and open to work. I'm a fast
                 learner, responsible, ready for tasks. I am interested in
@@ -70,7 +122,7 @@
            </section>
        
             <section class="section" id="skills ">
-                <h3 class=".section-title">TECHNICAL SKILLS</h3>
+                <h3 class="section-title">TECHNICAL SKILLS</h3>
                 <div class="underline line-color"></div>
                 <ul>
                     <li>HTML5</li>
@@ -82,7 +134,7 @@
                     <li>NODE</li>
                     <li>GIT</li>
                 </ul>                
-                <h3 class=".section-title">SOFT SKILLS</h3>
+                <h3 class="section-title">SOFT SKILLS</h3>
                 <div class="underline line-color"></div>
                 <ul>
                     <li>Responsible and organized</li>
@@ -95,22 +147,22 @@
             </section>
         
             <section class="section" id="projects">
-                <h3 class=".section-title">PROJECTS EXAMPLES</h3>
+                <h3 class="section-title">PROJECTS EXAMPLES</h3>
                 <div class="underline line-color"></div>
-                <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img src="assets/webStudi.jpg" alt="WEB STUDIO" width="350px"></a>
-                <a href="https://vipa4ka.github.io/goit-js-hw-08-gallery/"><img src="assets/Gallery.jpg" alt="GALLERY" width="350px"></a>
-                <a href="https://vipa4ka.github.io/goit-react-hw-08-phonebook/"><img src="assets/Phonebook.jpg" alt="PHONEBOOK" width="350px"></a>
-                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-images/"><img src="assets/ImageFinder.jpg" alt="IMAGE FINDER" width="350px"></a>
-                <a href="https://vipa4ka.github.io/goit-js-hw-11-timer/"><img src="assets/TimerCountDown.jpg" alt="TIMER COUNTDOWN" width="350px"></a>
-                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-feedback/"><img src="assets/feedback.jpg" alt="FEEDBACK" width="350px"></a>
-                <a href="https://movies5.netlify.app/"><img src="assets/SearchMovies.jpg" alt="SEARCH MOVIES" width="350px"></a>
-                <a href="https://tverdovskyialeksey.github.io/event-booster"><img src="assets/EventBooster.jpg" alt="EVENT-BOOSTER" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img class="project-foto" src="assets/projects/webStudi.jpg" alt="WEB STUDIO" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-js-hw-08-gallery/"><img class="project-foto" src="assets/projects/Gallery.jpg" alt="GALLERY" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-08-phonebook/"><img class="project-foto" src="assets/projects/Phonebook.jpg" alt="PHONEBOOK" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-images/"><img class="project-foto" src="assets/projects/ImageFinder.jpg" alt="IMAGE FINDER" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-js-hw-11-timer/"><img class="project-foto" src="assets/projects/TimerCountDown.jpg" alt="TIMER COUNTDOWN" width="350px"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-feedback/"><img class="project-foto" src="assets/projects/feedback.jpg" alt="FEEDBACK" width="350px"></a>
+                <a href="https://movies5.netlify.app/"><img class="project-foto" src="assets/projects/SearchMovies.jpg" alt="SEARCH MOVIES" width="350px"></a>
+                <a href="https://tverdovskyialeksey.github.io/event-booster"><img class="project-foto" src="assets/projects/EventBooster.jpg" alt="EVENT-BOOSTER" width="350px"></a>
             </section>
             <section class="section code-example" id="code">
-                <h3 class=".section-title">CODE EXAMPLES</h3>
+                <h3 class="section-title">CODE EXAMPLES</h3>
                 <div class="underline line-color"></div>
                 <!-- <pre> -->
-                    <div>
+                    <div class="background-code">
 <code>
     <span>function</span> <span>countSheeps</span><span>(arrayOfSheep)</span>{
         <span>return</span> <span>arrayOfSheep</span><span>.filter</span><span>.(e => e).length;</span>    
@@ -121,7 +173,7 @@
                 <!-- </pre> -->
             </section>
             <section class="section" id="education">
-                <h3 class=".section-title">EDUCATION</h3>
+                <h3 class="section-title">EDUCATION</h3>
                 <div class="underline line-color"></div>
                 <div>
                     <p>IT SCHOOL GoIt</p>
@@ -140,7 +192,7 @@
                 </div>                
             </section>
             <section class="section" id="language-skills">
-                <h3 class=".section-title">LANGUAGES</h3>
+                <h3 class="section-title">LANGUAGES</h3>
                 <div class="underline line-color"></div>
                 <ul class="section-language">
                     <li>Ukrainian -native</li>
@@ -155,12 +207,12 @@
         <div class="container-footer">
           <div>            
                <a class="rsschool" href="https://rs.school/js/" target="_blank">
-                   <img src="assets/rs_school_js.svg" width="86" height="32" alt="RS School">
+                   <img src="assets/icons/rs_school_js.jpg" width="86" height="32" alt="RS School">
                </a>
           </div>
           <div>
                <a class="github" href="https://github.com/Vipa4ka" target="_blank">
-                   <img src="./assets/github.svg" width="86" height="32" alt="github_icon">                
+                   <img src="./assets/skillIcons/github.svg" width="86" height="32" alt="github_icon">                
                </a>
             </div>
             <div class="year">2022</div>        
