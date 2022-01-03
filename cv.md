@@ -1,6 +1,6 @@
 # Ilieva Elena
 
-![Ilieva Elena](foto.jpg "Ilieva Elena")
+![Ilieva Elena](./assent/foto.jpg "Ilieva Elena")
 
 ## Junior Full Stack Developer
 
@@ -120,4 +120,3 @@ function solution(str, ending) {
 - Ukrainian -native
 - Russian - native
 - English -pre-intermediate
-
