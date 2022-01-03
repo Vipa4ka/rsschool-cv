@@ -12,21 +12,23 @@
     <header class = " header">
         <div class = "container">
             <nav class="nav">
-                <button type="button" class="menu-button is-open" aria-controls="menu-conteiner" data-menu-button>
-                    <svg class="svg-menu" width="40" height="40" aria-label="Переключатель моб меню">
-                        <use class="icon-menu" href="./assets/icons/burger.png "></use>
-                        <use class="icon-close" href="./assets/icons/close.png"></use>
-                    </svg>                
+                <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                    <svg width="40" height="40" aria-label="Переключатель моб. меню">
+                        <use class="icon-menu" href="./assets/icons/sprite.svg#icon-menu_40px"></use>
+                        <use class="icon-close" href="./assets/icons/sprite.svg#icon-close_40px"></use>
+                    </svg>
                 </button>
-                <ul class="nav-list">                    
-                    <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">SUMMARY</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
-                    <li class="nav-item"><a href="#language-skills" class="nav-link">LANGUAGE</a></li>                    
-                </ul>
+                <div class="menu-container" id="menu-container" data-menu>
+                    <ul class="nav-list">                    
+                        <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">SUMMARY</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
+                        <li class="nav-item"><a href="#language-skills" class="nav-link">LANGUAGE</a></li>                    
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -245,7 +247,7 @@
         <div class="container-footer">
           <div> 
                <a class="rsschool" href="https://rs.school/js/" target="_blank">
-                   <img src="assets/icons/rs_school_js.svg" width="86" height="32" alt="RS School">
+                   <img src="assets/icons/rs_school_js.svg" width="150" height="46" alt="RS School">
                </a>
           </div>
           <div>
@@ -255,6 +257,7 @@
             </div>
             <div class="year">2022</div>        
         </div>        
-    </footer>    
+    </footer> 
+    <script src="./mobmenu.js"></script>
 </body>
 </html>
