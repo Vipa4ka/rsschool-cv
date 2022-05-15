@@ -1,265 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/icons/icons.ico">
-</head>
-<body>
-    <header class = " header">
-        <div class = "container">
-            <nav class="nav">
-                <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
-                    <svg width="40" height="40" aria-label="Переключатель моб. меню">
-                        <use class="icon-menu" href="./assets/icons/sprite.svg#icon-menu_40px"></use>
-                        <use class="icon-close" href="./assets/icons/sprite.svg#icon-close_40px"></use>
-                    </svg>
-                </button>
-                <div class="menu-container" id="menu-container" data-menu>
-                    <ul class="nav-list">                    
-                        <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
-                        <li class="nav-item"><a href="#summary" class="nav-link">SUMMARY</a></li>
-                        <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
-                        <li class="nav-item"><a href="#projects" class="nav-link">PROJECTS</a></li>
-                        <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
-                        <li class="nav-item"><a href="#education" class="nav-link">EDUCATION</a></li>
-                        <li class="nav-item"><a href="#language-skills" class="nav-link">LANGUAGE</a></li>                    
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <main class = "main">        
-        <div class="container main-container">            
-             <section class="section" id="profile">  
-                 <h2 class="name">ILIEVA ELENA</h2>          
-               <img class="my-foto" src="./assets/foto.jpg" alt="my photo">            
-             </section>
-             <section >
-                 <h1 >ILIEVA ELENA</h1>
-                 <div class="underline line-color"></div>
-                 <p class="summary-text">JUNIOR FULL STACK DEVELOPER</p>                 
-             </section>           
-           <section class="section" id="contacts">
-               <h3 class="section-title">CONTACTS</h3>
-            <div class="underline line-color"></div>
-               <ul class="contact-list">
-                   <li class="contact-item">
-                    <a class="contact-icon" href="tel:+380682642482">
-                        <svg class="contact-svg" width="30" height="30">
-                            <use href="./assets/icons/symbol-defs.svg#icon-Phone2"></use>
-                        </svg>
-                        +38-068-264-24-82
-                    </a>
-                    </li>                    
-                    <li class="contact-item">
-                        <a class="contact-icon" href="mailto:iliyeva.elena@gmail.com">
-                            <svg class="contact-svg" width="30" height="30">
-                                <use href="./assets/icons/symbol-defs.svg#icon-E-mail"></use>
-                            </svg>
-                            iliyeva.elena@gmail.com
-                        </a>
-                    </li>
-                    
-                    <li class="contact-item">
-                        <a class="contact-icon" href="https://tlgg.ru/vipa4ka">
-                            <svg class="contact-svg" width="30" height="30">
-                                <use href="./assets/icons/symbol-defs.svg#icon-Telegram"></use>
-                            </svg>
-                            @vipa4ka
-                        </a>
-                    </li>
-                    
-                    <li class="contact-item">
-                        <a class="contact-icon" href="https://github.com/Vipa4ka">
-                            <svg class="contact-svg" width="30" height="30">
-                                <use href="./assets/icons/symbol-defs.svg#icon-GitHub"></use>
-                            </svg>
-                            Ilieva Elena
-                        </a>
-                    </li>
-                    <li class="contact-item">
-                        <a class="contact-icon" href="https://www.linkedin.com/in/elena-ilieva/">
-                            <svg class="contact-svg" width="30" height="30">
-                                <use href="./assets/icons/symbol-defs.svg#icon-LinkedIn"></use>
-                            </svg>
-                            Ilieva Elena
-                        </a>
-                    </li>
-                   
-                    <li class="contact-item">
-                        <a class="contact-icon" href="https://goo.gl/maps/Do6kcivRaSLcLbeg6">
-                            <svg class="contact-svg" width="30" height="30">
-                                <use href="./assets/icons/symbol-defs.svg#icon-Location2"></use>
-                            </svg>
-                            Odessa, Ukraine
-                        </a>
-                    </li>
-               </ul>
-            </section>
-            <section class="section" id="summary">
-            <h3 class="section-title">ABOUT ME</h3>
-            <div class="underline line-color"></div>
-            <p>I am a full stack developer and open to work. I'm a fast
-                learner, responsible, ready for tasks. I am interested in
-                programming, so for me studying is an essential part of
-                self-development.
-                I want to improve my skills and use them for interesting
-                tasks. I want to be useful in the implementation of your
-                projects.
-            </p>
-           </section>
-       
-            <section class="section" id="skills">
-                <h3 class="section-title">TECHNICAL SKILLS</h3>
-                <div class="underline line-color"></div>
-                <ul class="skills-list">
-                    <li class="skills-item">                        
-                            <svg class="skills-svg" width="25" height="25">
-                                <use href="./assets/icons/symbol-defs-skills.svg#icon-html5"></use>
-                            </svg>
-                            HTML5                        
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-css3"></use>
-                        </svg>
-                        CSS3
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-javascript"></use>
-                        </svg>
-                        JavaScript
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-react"></use>
-                        </svg>
-                        REACT
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-redux"></use>
-                        </svg>
-                        REDUX
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-sass"></use>
-                        </svg>
-                        SASS
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-node-dot-js"></use>
-                        </svg>
-                        NODE
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-figma"></use>
-                        </svg>
-                        FIGMA
-                    </li>
-                    <li class="skills-item">
-                        <svg class="skills-svg" width="25" height="25">
-                            <use href="./assets/icons/symbol-defs-skills.svg#icon-git"></use>
-                        </svg>
-                        GIT
-                    </li>                    
-                </ul>                
-                <h3 class="section-title">SOFT SKILLS</h3>
-                <div class="underline line-color"></div>
-                <ul class="list-soft-skills">
-                    <li class="soft-skills">Responsible and organized</li>
-                    <li class="soft-skills">Attentive to details</li>
-                    <li class="soft-skills">Good communicator</li>
-                    <li class="soft-skills">Team player</li>
-                    <li class="soft-skills">Stress-tolerant</li>
-                    <li class="soft-skills">Open to new knowledge</li>
-                </ul>                
-            </section>
-        
-            <section class="section" id="projects">
-                <h3 class="section-title">PROJECTS EXAMPLES</h3>
-                <div class="underline line-color"></div>
-                <div class="project-list">
-                <a href="https://vipa4ka.github.io/goit-markup-hw-08/"><img class="project-foto" src="assets/projects/web.jpg" alt="WEB STUDIO"></a>
-                <!-- <a href="https://vipa4ka.github.io/goit-js-hw-08-gallery/"><img class="project-foto" src="assets/projects/gallery.jpg" alt="GALLERY"></a>
-                <a href="https://vipa4ka.github.io/goit-react-hw-08-phonebook/"><img class="project-foto" src="assets/projects/phonebook.jpg" alt="PHONEBOOK" ></a> -->
-                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-images/"><img class="project-foto" src="assets/projects/image-finder.jpg" alt="IMAGE FINDER" ></a>
-                <a href="https://vipa4ka.github.io/goit-js-hw-11-timer/"><img class="project-foto" src="assets/projects/timer.jpg" alt="TIMER COUNTDOWN" ></a>
-                <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-feedback/"><img class="project-foto" src="assets/projects/feedback.jpg" alt="FEEDBACK" ></a>
-                <a href="https://movies5.netlify.app/"><img class="project-foto" src="assets/projects/movies.jpg" alt="SEARCH MOVIES" ></a>
-                <a href="https://tverdovskyialeksey.github.io/event-booster"><img class="project-foto" src="assets/projects/event.jpg" alt="EVENT-BOOSTER" ></a>
-            </div>
-            </section>
-            <section class="section code-example" id="code">
-                <h3 class="section-title">CODE EXAMPLES</h3>
-                <div class="underline line-color"></div>
-                <!-- <pre> -->
-                    <div class="background-code">
-<code>
-    <span>function</span> <span>countSheeps</span><span>(arrayOfSheep)</span>{
-        <span>return</span> <span>arrayOfSheep</span><span>.filter</span><span>.(e => e).length;</span>    
-    }
-
-</code>
-</div>
-                <!-- </pre> -->
-            </section>
-            <section class="section" id="education">
-                <h3 class="section-title">EDUCATION</h3>
-                <div class="underline line-color"></div>
-                <div>
-                    <p class="education-list">IT SCHOOL GOIT</p>
-                    <span class="course">Full Stack Developer</span>
-                        <span class="duration"> (October 2020 - November 2021)</span>
-                    <ul class="list-attainments">                
-                       <li class="attainments">Teamwork experience.</li>
-                       <li class="attainments">Experience with code versioning tools (such as Git).</li>
-                       <li class="attainments">The layout of the web pages with clean cross-browser valid code using Figma.</li>
-                       <li class="attainments">Experience in web application development using JavaScript.</li>
-                       <li class="attainments">Developing new user-facing features using React.js.</li>
-                       <li class="attainments">Experience in creating a REST API for working with a collection.</li>
-                       <li class="attainments">Experience in back-end development using Node.js</li>                
-                   </ul>
-                    <p class="education-list">ODESSA STATE ACADEMY OF COLD</p>
-                    <span class="course">Environmental Engineer</span><br>
-                    <span class="duration">(2001 - 2006)</span>
-                </div>                
-            </section>
-            <section class="section" id="language-skills">
-                <h3 class="section-title">LANGUAGES</h3>
-                <div class="underline line-color"></div>
-                <ul class="list-languages">
-                    <li class="language">Ukrainian -native</li>
-                    <li class="language">Russian - native</li>
-                    <li class="language">English -pre-intermediate</li>
-                </ul>
-            </section>        
-     </div>
-        
-    </main>
-    <footer class = "footer">
-        <div class="container-footer">
-          <div> 
-               <a class="rsschool" href="https://rs.school/js/" target="_blank">
-                   <img src="assets/icons/rs_school_js.svg" width="150" height="46" alt="RS School">
-               </a>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/icons/icons.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg width="40" height="40" aria-label="Переключатель моб. меню">
+              <use
+                class="icon-menu"
+                href="./assets/icons/sprite.svg#icon-menu_40px"
+              ></use>
+              <use
+                class="icon-close"
+                href="./assets/icons/sprite.svg#icon-close_40px"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">CONTACTS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#summary" class="nav-link">SUMMARY</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">CODE</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a href="#language-skills" class="nav-link">LANGUAGE</a>
+              </li>
+            </ul>
           </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section" id="profile">
+          <h2 class="name">ILIEVA ELENA</h2>
+          <img class="my-foto" src="./assets/foto.jpg" alt="my photo" />
+        </section>
+        <section>
+          <h1>ILIEVA ELENA</h1>
+          <div class="underline line-color"></div>
+          <p class="summary-text">JUNIOR FULL STACK DEVELOPER</p>
+        </section>
+        <section class="section" id="contacts">
+          <h3 class="section-title">CONTACTS</h3>
+          <div class="underline line-color"></div>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a class="contact-icon" href="tel:+380682642482">
+                <svg class="contact-svg" width="30" height="30">
+                  <use href="./assets/icons/symbol-defs.svg#icon-Phone2"></use>
+                </svg>
+                +38-068-264-24-82
+              </a>
+            </li>
+            <li class="contact-item">
+              <a class="contact-icon" href="mailto:iliyeva.elena@gmail.com">
+                <svg class="contact-svg" width="30" height="30">
+                  <use href="./assets/icons/symbol-defs.svg#icon-E-mail"></use>
+                </svg>
+                iliyeva.elena@gmail.com
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <a class="contact-icon" href="https://tlgg.ru/vipa4ka">
+                <svg class="contact-svg" width="30" height="30">
+                  <use
+                    href="./assets/icons/symbol-defs.svg#icon-Telegram"
+                  ></use>
+                </svg>
+                @vipa4ka
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <a class="contact-icon" href="https://github.com/Vipa4ka">
+                <svg class="contact-svg" width="30" height="30">
+                  <use href="./assets/icons/symbol-defs.svg#icon-GitHub"></use>
+                </svg>
+                Ilieva Elena
+              </a>
+            </li>
+            <li class="contact-item">
+              <a
+                class="contact-icon"
+                href="https://www.linkedin.com/in/elena-ilieva/"
+              >
+                <svg class="contact-svg" width="30" height="30">
+                  <use
+                    href="./assets/icons/symbol-defs.svg#icon-LinkedIn"
+                  ></use>
+                </svg>
+                Ilieva Elena
+              </a>
+            </li>
+
+            <li class="contact-item">
+              <a
+                class="contact-icon"
+                href="https://goo.gl/maps/Do6kcivRaSLcLbeg6"
+              >
+                <svg class="contact-svg" width="30" height="30">
+                  <use
+                    href="./assets/icons/symbol-defs.svg#icon-Location2"
+                  ></use>
+                </svg>
+                Odessa, Ukraine
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h3 class="section-title">ABOUT ME</h3>
+          <div class="underline line-color"></div>
+          <p>
+            I am a full stack developer and open to work. I'm a fast learner,
+            responsible, ready for tasks. I am interested in programming, so for
+            me studying is an essential part of self-development. I want to
+            improve my skills and use them for interesting tasks. I want to be
+            useful in the implementation of your projects.
+          </p>
+        </section>
+
+        <section class="section" id="skills">
+          <h3 class="section-title">TECHNICAL SKILLS</h3>
+          <div class="underline line-color"></div>
+          <ul class="skills-list">
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-html5"
+                ></use>
+              </svg>
+              HTML5
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-css3"
+                ></use>
+              </svg>
+              CSS3
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-javascript"
+                ></use>
+              </svg>
+              JavaScript
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-react"
+                ></use>
+              </svg>
+              REACT
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-redux"
+                ></use>
+              </svg>
+              REDUX
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-sass"
+                ></use>
+              </svg>
+              SASS
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-node-dot-js"
+                ></use>
+              </svg>
+              NODE
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-figma"
+                ></use>
+              </svg>
+              FIGMA
+            </li>
+            <li class="skills-item">
+              <svg class="skills-svg" width="25" height="25">
+                <use
+                  href="./assets/icons/symbol-defs-skills.svg#icon-git"
+                ></use>
+              </svg>
+              GIT
+            </li>
+          </ul>
+          <h3 class="section-title">SOFT SKILLS</h3>
+          <div class="underline line-color"></div>
+          <ul class="list-soft-skills">
+            <li class="soft-skills">Responsible and organized</li>
+            <li class="soft-skills">Attentive to details</li>
+            <li class="soft-skills">Good communicator</li>
+            <li class="soft-skills">Team player</li>
+            <li class="soft-skills">Stress-tolerant</li>
+            <li class="soft-skills">Open to new knowledge</li>
+          </ul>
+        </section>
+
+        <section class="section" id="projects">
+          <h3 class="section-title">PROJECTS EXAMPLES</h3>
+          <div class="underline line-color"></div>
+          <div class="project-list">
+            <a href="https://vipa4ka.github.io/goit-markup-hw-08/"
+              ><img
+                class="project-foto"
+                src="assets/projects/web.jpg"
+                alt="WEB STUDIO"
+            /></a>
+            <!-- <a href="https://vipa4ka.github.io/goit-js-hw-08-gallery/"><img class="project-foto" src="assets/projects/gallery.jpg" alt="GALLERY"></a>
+                <a href="https://vipa4ka.github.io/goit-react-hw-08-phonebook/"><img class="project-foto" src="assets/projects/phonebook.jpg" alt="PHONEBOOK" ></a> -->
+            <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-images/"
+              ><img
+                class="project-foto"
+                src="assets/projects/image-finder.jpg"
+                alt="IMAGE FINDER"
+            /></a>
+            <a href="https://vipa4ka.github.io/goit-js-hw-11-timer/"
+              ><img
+                class="project-foto"
+                src="assets/projects/timer.jpg"
+                alt="TIMER COUNTDOWN"
+            /></a>
+            <a href="https://vipa4ka.github.io/goit-react-hw-04-hooks-feedback/"
+              ><img
+                class="project-foto"
+                src="assets/projects/feedback.jpg"
+                alt="FEEDBACK"
+            /></a>
+            <a href="https://movies5.netlify.app/"
+              ><img
+                class="project-foto"
+                src="assets/projects/movies.jpg"
+                alt="SEARCH MOVIES"
+            /></a>
+            <a href="https://tverdovskyialeksey.github.io/event-booster"
+              ><img
+                class="project-foto"
+                src="assets/projects/event.jpg"
+                alt="EVENT-BOOSTER"
+            /></a>
+          </div>
+        </section>
+        <section class="section code-example" id="code">
+          <h3 class="section-title">CODE EXAMPLES</h3>
+          <div class="underline line-color"></div>
+          <!-- <pre> -->
+          <div class="background-code">
+            <code>
+              <span>function</span> <span>countSheeps</span
+              ><span>(arrayOfSheep)</span>{ <span>return</span>
+              <span>arrayOfSheep</span><span>.filter</span
+              ><span>.(e => e).length;</span>
+              }
+            </code>
+          </div>
+          <!-- </pre> -->
+        </section>
+        <section class="section" id="education">
+          <h3 class="section-title">EDUCATION</h3>
+          <div class="underline line-color"></div>
           <div>
-               <a class="github" href="https://github.com/Vipa4ka" target="_blank">
-                   <img src="./assets/icons/github.svg" width="86" height="32" alt="github_icon">                
-               </a>
-            </div>
-            <div class="year">2022</div>        
-        </div>        
-    </footer> 
+            <p class="education-list">IT SCHOOL GOIT</p>
+            <span class="course">Full Stack Developer</span>
+            <span class="duration"> (October 2020 - November 2021)</span>
+            <ul class="list-attainments">
+              <li class="attainments">Teamwork experience.</li>
+              <li class="attainments">
+                Experience with code versioning tools (such as Git).
+              </li>
+              <li class="attainments">
+                The layout of the web pages with clean cross-browser valid code
+                using Figma.
+              </li>
+              <li class="attainments">
+                Experience in web application development using JavaScript.
+              </li>
+              <li class="attainments">
+                Developing new user-facing features using React.js.
+              </li>
+              <li class="attainments">
+                Experience in creating a REST API for working with a collection.
+              </li>
+              <li class="attainments">
+                Experience in back-end development using Node.js
+              </li>
+            </ul>
+            <p class="education-list">ODESSA STATE ACADEMY OF COLD</p>
+            <span class="course">Environmental Engineer</span><br />
+            <span class="duration">(2001 - 2006)</span>
+          </div>
+        </section>
+        <section class="section" id="language-skills">
+          <h3 class="section-title">LANGUAGES</h3>
+          <div class="underline line-color"></div>
+          <ul class="list-languages">
+            <li class="language">Ukrainian -native</li>
+            <li class="language">Russian - native</li>
+            <li class="language">English -pre-intermediate</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div>
+          <a class="rsschool" href="https://rs.school/js/" target="_blank">
+            <img
+              src="assets/icons/rs_school_js.svg"
+              width="150"
+              height="46"
+              alt="RS School"
+            />
+          </a>
+        </div>
+        <div>
+          <a class="github" href="https://github.com/Vipa4ka" target="_blank">
+            <img
+              src="./assets/icons/github.svg"
+              width="86"
+              height="32"
+              alt="github_icon"
+            />
+          </a>
+        </div>
+        <div class="year">2022</div>
+      </div>
+    </footer>
+
     <script src="./mobmenu.js"></script>
-</body>
+  </body>
 </html>
